@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    background-color: rgb(197, 159, 171);
+    height: 400px;
+}
+/*Main*/
+.main_content{
+    background-color: paleturquoise;
+    /*height: 600px;*/
+}
+.left_column{
+    float: left;
+    width: 10%;
+    height: 400px;
+    background-color: rgb(207, 219, 100);
+}
+.content{
+    float: left;
+    width: 80%;
+    height: 400px;
+    background-color: rgb(128, 160, 128);
+}
+.right_column{
+    float: left;
+    width: 10%;
+    height: 400px;
+    background-color: rgb(98, 145, 160);
+}
+#footer{
+    background-color: rgb(116, 104, 73);
+    height: 60px;
+}

@@ -5,7 +5,7 @@
     padding: 0;
 }
 .container{
-    width: 500px;
+    width: 1400px;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -46,7 +46,8 @@ h2{
 
 }
 .subtitle{
- font-size: x-small;
+ font-size:20px;
+ color: lightgray;
 }
 .main_content{
     background-color: paleturquoise;
@@ -54,21 +55,24 @@ h2{
 }
 .left_column{
     float: left;
-    width: 10%;
-    height: 400px;
+    width: 25%;
     background-color: rgb(207, 219, 100);
 }
 .content{
     float: left;
-    width: 80%;
-    height: 400px;
+    width: 50%;
+    
     background-color: rgb(128, 160, 128);
 }
 .right_column{
     float: left;
-    width: 10%;
-    height: 400px;
+    width: 25%;
+
     background-color: rgb(98, 145, 160);
+}
+.imagine{
+    width:100%;
+    height: auto;
 }
 /*footer*/
 #footer{

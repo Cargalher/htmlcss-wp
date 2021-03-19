@@ -26,8 +26,9 @@ header{
 }
 .nav_bar{
     text-decoration: none;
+    color: inherit;
     text-transform: uppercase;
-    color: lightgrey;
+  
     font-size: smaller;
     padding: 20px;
 }
@@ -40,43 +41,55 @@ header{
 
 /*Main*/
 .main_title{
-   
+   margin-top: 30px;
+   margin-bottom: 30px;
 }
 h2{
 
 }
 .subtitle{
- font-size:20px;
- color: lightgray;
+ font-size:11px;
+
+ color: lightgrey;
 }
 .main_content{
-    background-color: paleturquoise;
+    background-color: light gray;
     /*height: 600px;*/
 }
 .left_column{
     float: left;
     width: 25%;
-    background-color: rgb(207, 219, 100);
+    background-color:white;
 }
 .content{
     float: left;
     width: 50%;
     
-    background-color: rgb(128, 160, 128);
+    background-color: white;
 }
 .right_column{
     float: left;
     width: 25%;
 
-    background-color: rgb(98, 145, 160);
+    background-color: white;
 }
 .imagine{
     width:100%;
     height: auto;
+  
+}
+.text{
+    font-size: 11px;
+    color: lightgrey;
 }
 /*footer*/
 #footer{
-    background-color: rgb(116, 104, 73);
+    background-color: white;
     height: 60px;
+    margin-top: 30px;
+    text-align: center;
+}
+i{
+    color: red;
 }
 /*footer*/

@@ -1,3 +1,4 @@
+/*Common rules*/
 *{
     margin: 0;
     padding: 0;
@@ -11,9 +12,14 @@
     display: table;
     clear: both;
 }
+/*Common rules*/
 header{
-    background-color: rgb(197, 159, 171);
+    background-color: pink;
     height: 400px;
+}
+.logo{
+    height: 50px;
+    margin: 1rem;
 }
 /*Main*/
 .main_content{

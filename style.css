@@ -30,9 +30,11 @@ header{
     padding: 20px;
 }
 .header_img{
-   height: 300px;
     margin: 1rem;
-    text-align: center;
+    height:100px;
+    border-radius: 10px;
+    width: 300px;
+   
 }
 /*Main*/
 .main_content{

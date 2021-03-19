@@ -4,7 +4,7 @@
     padding: 0;
 }
 .container{
-    width: 900px;
+    width: 600px;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -15,7 +15,7 @@
 }
 /*Common rules*/
 header{
-    background-color: pink;
+    background-color:white;
   
 }
 .logo{
@@ -31,18 +31,15 @@ header{
 }
 .header_img{
    
-  
     border-radius: 10px;
-    width: 100%;
-   
-}
+    width:100%;
+
 /*Main*/
 h2{
 
 }
-h6{
-    color: lightgrey;
-    font-weight: 300;
+.subtitle{
+    text;
 }
 .main_content{
     background-color: paleturquoise;

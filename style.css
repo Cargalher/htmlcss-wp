@@ -4,7 +4,7 @@
     padding: 0;
 }
 .container{
-    width: 90%;
+    width: 900px;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -16,7 +16,7 @@
 /*Common rules*/
 header{
     background-color: pink;
-    height: 400px;
+  
 }
 .logo{
     height: 50px;
@@ -30,13 +30,20 @@ header{
     padding: 20px;
 }
 .header_img{
-    margin: 1rem;
-    height:100px;
+   
+  
     border-radius: 10px;
-    width: 300px;
+    width: 100%;
    
 }
 /*Main*/
+h2{
+
+}
+h6{
+    color: lightgrey;
+    font-weight: 300;
+}
 .main_content{
     background-color: paleturquoise;
     /*height: 600px;*/

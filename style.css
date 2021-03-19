@@ -70,7 +70,7 @@
    background-color: white;
 }
 .subtitle{
- font-size:11px;
+ font-size:15px;
  color: lightgrey;
 }
 .main_content{
@@ -98,7 +98,7 @@
     filter: brightness(80%);
 }
 .text{
-    font-size: 16px;
+    font-size: 15px;
     color: lightgrey;
     margin-top: 10px;
     font-weight: 100;

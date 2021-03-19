@@ -6,6 +6,7 @@
 .container{
     width: 90%;
     margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .clearfix::after{
     content: "";
@@ -20,6 +21,18 @@ header{
 .logo{
     height: 50px;
     margin: 1rem;
+}
+.nav_bar{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: lightgrey;
+    font-size: smaller;
+    padding: 20px;
+}
+.header_img{
+   height: 300px;
+    margin: 1rem;
+    text-align: center;
 }
 /*Main*/
 .main_content{
